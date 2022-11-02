@@ -30,18 +30,18 @@ seeCharacters(jPCharacters);
 //BONUS
 
 //3a
-const jurassicParkMovies = {
-    first:{ 
-        one: "Jurassic Park",
-        two: "The Lost World: Jurassic Park", 
+const jurassicParkMovies =[
+    {
+        one: "Jurassic Park", 
+        two: "The Lost World: Jurassic Park",
         three: "Jurassic Park III"
     },
-    second: {
+    {
         four: "Jurassic World",
         five: "Jurassic World: Fallen Kingdom",
         six: "Jurassic World: Dominion"
     }
-};
+];
 
 //3b
 const seeJPMovies = function([{one, two, three}, {four, five, six}]){
